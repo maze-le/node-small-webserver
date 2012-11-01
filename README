@@ -1,0 +1,10 @@
+This is a very small node.js Webserver for static file-requests.
+
+It serves the content of the 'static'-directory upon request, or gives appropriate error messages in 'plain/text'. There is no caching implemented whatsoever. This Project can be used as a base for further development.
+
+The characters of the request-pathname are transformed to the lowercase-representation.
+
+The 'path'-module prevents directory-traversal attacks.
+
+
+Have fun!
